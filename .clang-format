@@ -1,0 +1,51 @@
+BasedOnStyle: LLVM
+
+Language: Cpp
+
+
+# Отступы
+IndentWidth: 4
+
+
+# Максимальная длина строки
+ColumnLimit: 100
+
+
+# Скобки в стиле K&R
+BreakBeforeBraces: Custom
+
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: Never
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterEnum: false
+
+
+# Указатели
+PointerAlignment: Left
+
+
+# Пробелы вокруг операторов
+SpaceBeforeAssignmentOperators: true
+
+
+# Не объединять короткие функции в одну строку
+AllowShortFunctionsOnASingleLine: Empty
+
+
+# namespace без лишнего отступа
+NamespaceIndentation: None
+
+
+# Пустые строки
+MaxEmptyLinesToKeep: 1
+
+
+# Конструкторы
+BreakConstructorInitializers: BeforeComma
+
+
+# Скобки функций
+AllowShortBlocksOnASingleLine: Never
