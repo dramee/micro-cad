@@ -1,9 +1,9 @@
 Checks:
-  - bugprone-*
-  - performance-*
-  - modernize-*
-  - readability-*
+  -bugprone-*
+  -performance-*
+  -modernize-*
+  -readability-*
 
 WarningsAsErrors: ''
 
-HeaderFilterRegex: '.*'
+HeaderFilterRegex: 'Engine/.*'
